@@ -2,7 +2,7 @@ from app import app
 from modules import calculator
 
 @app.route('/+')
-def add():
+def add(num_1, num_2):
     return f"this equals {int(num1) + int(num2)}
 
 @app.route('/-')
